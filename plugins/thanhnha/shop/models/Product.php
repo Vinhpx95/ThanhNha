@@ -7,10 +7,11 @@ use Model;
  */
 class Product extends Model
 {
+    use \October\Rain\Database\Traits\Validation;
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'thanhnha_shop_products';
+    public $table = 'products';
 
     /**
      * @var array Guarded fields

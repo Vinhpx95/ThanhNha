@@ -222,8 +222,10 @@ header .intro-text {
 #about .about-img {
 	display: inline-block;
 	position: relative;
+	max-width: 80%;
+	margin-top: -15px;
 }
-#about .about-img:before {
+/* #about .about-img:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -232,7 +234,7 @@ header .intro-text {
 	bottom: 8px;
 	left: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
-}
+} */
 #about p {
 	line-height: 24px;
 	margin: 15px 0 30px;

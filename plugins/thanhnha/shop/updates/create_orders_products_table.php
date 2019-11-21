@@ -8,15 +8,19 @@ class CreateOrdersProductsTable extends Migration
 {
     public function up()
     {
-        Schema::create('thanhnha_shop_orders_products', function (Blueprint $table) {
+        Schema::create('orders_products', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->timestamps();
+            $table->integer('product_id');
+            $table->integer('order_id');
+            $table->integer('quantity');
+            $table->integer('shiping_fee');
+            $table->integer('total_price');
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('thanhnha_shop_orders_products');
+        Schema::dropIfExists('orders_products');
     }
 }

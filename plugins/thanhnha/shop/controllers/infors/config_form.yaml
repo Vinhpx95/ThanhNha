@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Infor
+
+# Model Form Field configuration
+form: $/thanhnha/shop/models/infor/fields.yaml
+
+# Model Class name
+modelClass: Thanhnha\Shop\Models\Infor
+
+# Default redirect location
+defaultRedirect: thanhnha/shop/infors
+
+# Create page
+create:
+    title: Create Infor
+    redirect: thanhnha/shop/infors/update/:id
+    redirectClose: thanhnha/shop/infors
+
+# Update page
+update:
+    title: Edit Infor
+    redirect: thanhnha/shop/infors
+    redirectClose: thanhnha/shop/infors
+
+# Preview page
+preview:
+    title: Preview Infor

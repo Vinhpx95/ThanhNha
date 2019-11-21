@@ -7,10 +7,11 @@ use Model;
  */
 class Infor extends Model
 {
+    use \October\Rain\Database\Traits\Validation;
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'thanhnha_shop_infors';
+    public $table = 'infors';
 
     /**
      * @var array Guarded fields
@@ -21,6 +22,16 @@ class Infor extends Model
      * @var array Fillable fields
      */
     protected $fillable = [];
+
+    protected $rules = [
+        'address' => 'required',
+        'open_hours' => 'required',
+        'phone1' => 'required|regex:/^\d{10}$/',
+        'phone2' => 'required|regex:/^\d{10}$/',
+        'mail' => 'required|email',
+        'facebook' => 'required',
+        'google_plus' => 'required',
+    ];
 
     /**
      * @var array Relations

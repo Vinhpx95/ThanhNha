@@ -7,10 +7,11 @@ use Model;
  */
 class Order extends Model
 {
+    public $timestamps = true;
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'thanhnha_shop_orders';
+    public $table = 'orders';
 
     /**
      * @var array Guarded fields

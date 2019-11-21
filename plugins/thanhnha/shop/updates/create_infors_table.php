@@ -8,15 +8,22 @@ class CreateInforsTable extends Migration
 {
     public function up()
     {
-        Schema::create('thanhnha_shop_infors', function (Blueprint $table) {
+        Schema::create('infors', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->timestamps();
+            $table->string('address');
+            $table->string('opening_hours');
+            $table->string('phone1');
+            $table->string('phone2');
+            $table->string('mail');
+            $table->string('facebook');
+            $table->string('google_plus');
+            //$table->timestamps();
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('thanhnha_shop_infors');
+        Schema::dropIfExists('infors');
     }
 }

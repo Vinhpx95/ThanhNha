@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/thanhnha/shop/models/product/fields.yaml
+
+# Model Class name
+modelClass: Thanhnha\Shop\Models\Product
+
+# Default redirect location
+defaultRedirect: thanhnha/shop/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: thanhnha/shop/products/update/:id
+    redirectClose: thanhnha/shop/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: thanhnha/shop/products
+    redirectClose: thanhnha/shop/products
+
+# Preview page
+preview:
+    title: Preview Product

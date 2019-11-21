@@ -1,8 +1,26 @@
-# ===================================
-#  Form Field Definitions
-# ===================================
-
 fields:
-    id:
-        label: ID
-        disabled: true
+    name:
+        label: Name
+        span: auto
+        required: 1
+        type: text
+    invest_price:
+        label: 'Invest price'
+        span: auto
+        required: 1
+        type: number
+    sale_price:
+        label: 'Sale price'
+        span: auto
+        required: 1
+        type: number
+    quantity:
+        label: Quantity
+        span: auto
+        required: 1
+        type: number
+    note:
+        label: Note
+        span: auto
+        size: ''
+        type: textarea

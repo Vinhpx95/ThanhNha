@@ -1,8 +1,37 @@
-# ===================================
-#  Form Field Definitions
-# ===================================
-
 fields:
-    id:
-        label: ID
-        disabled: true
+    address:
+        label: Address
+        span: auto
+        required: 1
+        type: text
+    open_hours:
+        label: 'Openning hours'
+        span: auto
+        required: 1
+        type: text
+    phone1:
+        label: 'Phone 1'
+        span: auto
+        required: 1
+        type: text
+    phone2:
+        label: 'Phone 2'
+        span: auto
+        required: 1
+        type: text
+    mail:
+        label: Mail
+        span: auto
+        required: 1
+        type: text
+    facebook:
+        label: Facebook
+        span: auto
+        required: 1
+        type: text
+    google_plus:
+        label: 'Google plus'
+        span: auto
+        readOnly: 0
+        required: 1
+        type: text

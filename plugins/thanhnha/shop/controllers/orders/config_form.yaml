@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Order
+
+# Model Form Field configuration
+form: $/thanhnha/shop/models/order/fields.yaml
+
+# Model Class name
+modelClass: Thanhnha\Shop\Models\Order
+
+# Default redirect location
+defaultRedirect: thanhnha/shop/orders
+
+# Create page
+create:
+    title: Create Order
+    redirect: thanhnha/shop/orders/update/:id
+    redirectClose: thanhnha/shop/orders
+
+# Update page
+update:
+    title: Edit Order
+    redirect: thanhnha/shop/orders
+    redirectClose: thanhnha/shop/orders
+
+# Preview page
+preview:
+    title: Preview Order

@@ -16,10 +16,10 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'shop',
+            'name'        => 'Shop',
             'description' => 'No description provided yet...',
             'author'      => 'thanhnha',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-shopping-basket'
         ];
     }
 
@@ -81,15 +81,35 @@ class Plugin extends PluginBase
      */
     public function registerNavigation()
     {
-        return []; // Remove this line to activate
+        //return []; // Remove this line to activate
 
         return [
             'shop' => [
-                'label'       => 'shop',
-                'url'         => Backend::url('thanhnha/shop/mycontroller'),
-                'icon'        => 'icon-leaf',
+                'label'       => 'Shop',
+                'url'         => Backend::url('thanhnha/shop/products'),
+                'icon'        => 'icon-shopping-basket',
                 'permissions' => ['thanhnha.shop.*'],
                 'order'       => 500,
+                'sideMenu' => [
+                    'orders' => [
+                        'label'       => 'Hóa đơn',
+                        'icon'        => 'icon-file-text-o',
+                        'url'         => Backend::url('thanhnha/shop/orders'),
+                        'permissions' => ['comchayhotay.shop.*'],
+                    ],
+                    'products' => [
+                        'label'       => 'Sản phẩm',
+                        'icon'        => 'icon-key',
+                        'url'         => Backend::url('thanhnha/shop/products'),
+                        'permissions' => ['comchayhotay.shop.*'],
+                    ],
+                    'infors' => [
+                        'label'       => 'Thông tin',
+                        'icon'        => 'icon-info-circle',
+                        'url'         => Backend::url('thanhnha/shop/infors'),
+                        'permissions' => ['comchayhotay.shop.*'],
+                    ],
+                ]
             ],
         ];
     }
