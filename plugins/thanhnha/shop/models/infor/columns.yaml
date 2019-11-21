@@ -6,6 +6,6 @@ columns:
     address:
         label: Addres
         type: text
-    open_hours:
+    opening_hours:
         label: 'Opening hours'
         type: text

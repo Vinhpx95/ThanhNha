@@ -50,10 +50,9 @@ class Plugin extends PluginBase
      */
     public function registerComponents()
     {
-        return []; // Remove this line to activate
 
         return [
-            'Thanhnha\Shop\Components\MyComponent' => 'myComponent',
+            'Thanhnha\Shop\Components\InforFooter' => 'inforFooter',
         ];
     }
 

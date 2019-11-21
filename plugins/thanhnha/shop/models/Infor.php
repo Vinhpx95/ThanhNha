@@ -13,6 +13,7 @@ class Infor extends Model
      */
     public $table = 'infors';
 
+    public $timestamps = false;
     /**
      * @var array Guarded fields
      */
@@ -25,9 +26,9 @@ class Infor extends Model
 
     protected $rules = [
         'address' => 'required',
-        'open_hours' => 'required',
-        'phone1' => 'required|regex:/^\d{10}$/',
-        'phone2' => 'required|regex:/^\d{10}$/',
+        'opening_hours' => 'required',
+        'phone1' => 'required',
+        'phone2' => 'required',
         'mail' => 'required|email',
         'facebook' => 'required',
         'google_plus' => 'required',

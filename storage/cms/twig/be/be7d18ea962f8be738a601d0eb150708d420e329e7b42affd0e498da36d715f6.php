@@ -35,18 +35,19 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
         $macros = $this->macros;
         // line 1
         echo "<!-- About Section -->
+
 <div id=\"about\">
     <div class=\"container\">
         <div class=\"row\">
-        <div class=\"col-xs-12 col-md-6 \">
+        <div class=\"col-xs-12 col-md-6\" style=\"text-align: center;\">
             <div class=\"about-img\"><img src=\"";
-        // line 6
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/about.jpg");
+        // line 7
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.png");
         echo "\" class=\"img-responsive\" alt=\"\"></div>
         </div>
         <div class=\"col-xs-12 col-md-6\">
             <div class=\"about-text\">
-            <h2>Our Restaurant</h2>
+            <h2>Thanh Nhã</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
             <h3>Awarded Chefs</h3>
@@ -60,129 +61,22 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     <div id=\"restaurant-menu\">
     <div class=\"section-title text-center center\">
         <div class=\"overlay\">
-        <h2>Menu</h2>
+        <h2>Sản phẩm</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p class=\"font-arial\">Điều Bình Phước</p>
         </div>
     </div>
     <div class=\"container\">
-        <div class=\"row\">
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Breakfast & Starters</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$35 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Main Course</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$45 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class=\"row\">
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Dinner</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$45 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$350 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Coffee & Drinks</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$35 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        </div>
+        Thông tin về Điều Bình Phước
     </div>
     </div>
     <!-- Portfolio Section -->
     <div id=\"portfolio\">
     <div class=\"section-title text-center center\">
         <div class=\"overlay\">
-        <h2>Gallery</h2>
+        <h2>Bộ sưu tập</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p class=\"font-arial\">Hình ảnh về sản phẩm Điều Bình Phước</p>
         </div>
     </div>
     <div class=\"container\">
@@ -191,10 +85,10 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <ul class=\"cat\">
             <li>
                 <ol class=\"type\">
-                <li><a href=\"#\" data-filter=\"*\" class=\"active\">All</a></li>
-                <li><a href=\"#\" data-filter=\".breakfast\">Breakfast</a></li>
-                <li><a href=\"#\" data-filter=\".lunch\">Lunch</a></li>
-                <li><a href=\"#\" data-filter=\".dinner\">Dinner</a></li>
+                <li><a href=\"#\" data-filter=\"*\" class=\"active\">Tất cả</a></li>
+                <li><a href=\"#\" data-filter=\".breakfast\">Thành phẩm</a></li>
+                <li><a href=\"#\" data-filter=\".lunch\">Cơ sở sản xuất</a></li>
+                <li><a href=\"#\" data-filter=\".dinner\">Vườn canh tác</a></li>
                 </ol>
             </li>
             </ul>
@@ -206,14 +100,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 breakfast\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 169
+        // line 63
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/01-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 173
+        // line 67
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/01-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -221,14 +115,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 dinner\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 178
+        // line 72
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/02-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 182
+        // line 76
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/02-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -236,14 +130,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 breakfast\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 187
+        // line 81
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/03-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 191
+        // line 85
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/03-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -251,14 +145,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 breakfast\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 196
+        // line 90
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/04-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 200
+        // line 94
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/04-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -266,14 +160,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 dinner\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 205
+        // line 99
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/05-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 209
+        // line 103
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/05-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -281,14 +175,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 lunch\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 214
+        // line 108
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/06-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 218
+        // line 112
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/06-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -296,14 +190,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 lunch\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 223
+        // line 117
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/07-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 227
+        // line 121
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/07-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -311,14 +205,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 breakfast\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 232
+        // line 126
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/08-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 236
+        // line 130
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/08-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -326,14 +220,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 dinner\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 241
+        // line 135
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/09-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 245
+        // line 139
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/09-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -341,14 +235,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 lunch\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 250
+        // line 144
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/10-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 254
+        // line 148
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/10-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -356,14 +250,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 lunch\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 259
+        // line 153
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/11-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 263
+        // line 157
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/11-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -371,14 +265,14 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-sm-6 col-md-4 col-lg-4 breakfast\">
             <div class=\"portfolio-item\">
                 <div class=\"hover-bg\"> <a href=\"";
-        // line 268
+        // line 162
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/12-large.jpg");
         echo "\" title=\"Dish Name\" data-lightbox-gallery=\"gallery1\">
                 <div class=\"hover-text\">
                     <h4>Dish Name</h4>
                 </div>
                 <img src=\"";
-        // line 272
+        // line 166
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio/12-small.jpg");
         echo "\" class=\"img-responsive\" alt=\"Project Title\"> </a> </div>
             </div>
@@ -388,7 +282,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     </div>
     </div>
     <!-- Team Section -->
-    <div id=\"team\" class=\"text-center\">
+    <!-- <div id=\"team\" class=\"text-center\">
     <div class=\"overlay\">
         <div class=\"container\">
         <div class=\"col-md-10 col-md-offset-1 section-title\">
@@ -400,7 +294,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-md-4 team\">
             <div class=\"thumbnail\">
                 <div class=\"team-img\"><img src=\"";
-        // line 291
+        // line 185
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/team/01.jpg");
         echo "\" alt=\"...\"></div>
                 <div class=\"caption\">
@@ -412,7 +306,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-md-4 team\">
             <div class=\"thumbnail\">
                 <div class=\"team-img\"><img src=\"";
-        // line 300
+        // line 194
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/team/02.jpg");
         echo "\" alt=\"...\"></div>
                 <div class=\"caption\">
@@ -424,7 +318,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <div class=\"col-md-4 team\">
             <div class=\"thumbnail\">
                 <div class=\"team-img\"><img src=\"";
-        // line 309
+        // line 203
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/team/03.jpg");
         echo "\" alt=\"...\"></div>
                 <div class=\"caption\">
@@ -436,7 +330,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
         </div>
         </div>
     </div>
-    </div>
+    </div> -->
     <!-- Call Reservation Section -->
     <div id=\"call-reservation\" class=\"text-center\">
     <div class=\"container\">
@@ -444,7 +338,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     </div>
     </div>
     <!-- Contact Section -->
-    <div id=\"contact\" class=\"text-center\">
+    <!-- <div id=\"contact\" class=\"text-center\">
     <div class=\"container\">
         <div class=\"section-title text-center\">
         <h2>Liên hệ</h2>
@@ -475,7 +369,8 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <button type=\"submit\" class=\"btn btn-custom btn-lg\">Gửi thư</button>
         </form>
         </div>
-    </div>
+    </div> -->
+
 </div>";
     }
 
@@ -491,21 +386,22 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
 
     public function getDebugInfo()
     {
-        return array (  428 => 309,  416 => 300,  404 => 291,  382 => 272,  375 => 268,  367 => 263,  360 => 259,  352 => 254,  345 => 250,  337 => 245,  330 => 241,  322 => 236,  315 => 232,  307 => 227,  300 => 223,  292 => 218,  285 => 214,  277 => 209,  270 => 205,  262 => 200,  255 => 196,  247 => 191,  240 => 187,  232 => 182,  225 => 178,  217 => 173,  210 => 169,  44 => 6,  37 => 1,);
+        return array (  322 => 203,  310 => 194,  298 => 185,  276 => 166,  269 => 162,  261 => 157,  254 => 153,  246 => 148,  239 => 144,  231 => 139,  224 => 135,  216 => 130,  209 => 126,  201 => 121,  194 => 117,  186 => 112,  179 => 108,  171 => 103,  164 => 99,  156 => 94,  149 => 90,  141 => 85,  134 => 81,  126 => 76,  119 => 72,  111 => 67,  104 => 63,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- About Section -->
+
 <div id=\"about\">
     <div class=\"container\">
         <div class=\"row\">
-        <div class=\"col-xs-12 col-md-6 \">
-            <div class=\"about-img\"><img src=\"{{ 'assets/images/about.jpg'|theme }}\" class=\"img-responsive\" alt=\"\"></div>
+        <div class=\"col-xs-12 col-md-6\" style=\"text-align: center;\">
+            <div class=\"about-img\"><img src=\"{{ 'assets/images/logo.png'|theme }}\" class=\"img-responsive\" alt=\"\"></div>
         </div>
         <div class=\"col-xs-12 col-md-6\">
             <div class=\"about-text\">
-            <h2>Our Restaurant</h2>
+            <h2>Thanh Nhã</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
             <h3>Awarded Chefs</h3>
@@ -519,129 +415,22 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     <div id=\"restaurant-menu\">
     <div class=\"section-title text-center center\">
         <div class=\"overlay\">
-        <h2>Menu</h2>
+        <h2>Sản phẩm</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p class=\"font-arial\">Điều Bình Phước</p>
         </div>
     </div>
     <div class=\"container\">
-        <div class=\"row\">
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Breakfast & Starters</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$35 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Main Course</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$45 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class=\"row\">
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Dinner</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$45 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$350 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        <div class=\"col-xs-12 col-sm-6\">
-            <div class=\"menu-section\">
-            <h2 class=\"menu-section-title\">Coffee & Drinks</h2>
-            <hr>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$35 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            <div class=\"menu-item\">
-                <div class=\"menu-item-name\"> Delicious Dish </div>
-                <div class=\"menu-item-price\"> \$30 </div>
-                <div class=\"menu-item-description\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-            </div>
-            </div>
-        </div>
-        </div>
+        Thông tin về Điều Bình Phước
     </div>
     </div>
     <!-- Portfolio Section -->
     <div id=\"portfolio\">
     <div class=\"section-title text-center center\">
         <div class=\"overlay\">
-        <h2>Gallery</h2>
+        <h2>Bộ sưu tập</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p class=\"font-arial\">Hình ảnh về sản phẩm Điều Bình Phước</p>
         </div>
     </div>
     <div class=\"container\">
@@ -650,10 +439,10 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <ul class=\"cat\">
             <li>
                 <ol class=\"type\">
-                <li><a href=\"#\" data-filter=\"*\" class=\"active\">All</a></li>
-                <li><a href=\"#\" data-filter=\".breakfast\">Breakfast</a></li>
-                <li><a href=\"#\" data-filter=\".lunch\">Lunch</a></li>
-                <li><a href=\"#\" data-filter=\".dinner\">Dinner</a></li>
+                <li><a href=\"#\" data-filter=\"*\" class=\"active\">Tất cả</a></li>
+                <li><a href=\"#\" data-filter=\".breakfast\">Thành phẩm</a></li>
+                <li><a href=\"#\" data-filter=\".lunch\">Cơ sở sản xuất</a></li>
+                <li><a href=\"#\" data-filter=\".dinner\">Vườn canh tác</a></li>
                 </ol>
             </li>
             </ul>
@@ -775,7 +564,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     </div>
     </div>
     <!-- Team Section -->
-    <div id=\"team\" class=\"text-center\">
+    <!-- <div id=\"team\" class=\"text-center\">
     <div class=\"overlay\">
         <div class=\"container\">
         <div class=\"col-md-10 col-md-offset-1 section-title\">
@@ -814,7 +603,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
         </div>
         </div>
     </div>
-    </div>
+    </div> -->
     <!-- Call Reservation Section -->
     <div id=\"call-reservation\" class=\"text-center\">
     <div class=\"container\">
@@ -822,7 +611,7 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
     </div>
     </div>
     <!-- Contact Section -->
-    <div id=\"contact\" class=\"text-center\">
+    <!-- <div id=\"contact\" class=\"text-center\">
     <div class=\"container\">
         <div class=\"section-title text-center\">
         <h2>Liên hệ</h2>
@@ -853,7 +642,8 @@ class __TwigTemplate_2a024d0c18eaf091ede482794df21b1676a1e6395e2f0125286406f492c
             <button type=\"submit\" class=\"btn btn-custom btn-lg\">Gửi thư</button>
         </form>
         </div>
-    </div>
+    </div> -->
+
 </div>", "C:\\Users\\Administrator\\Documents\\Git\\ThanhNha/themes/demo/pages/home.htm", "");
     }
 }
