@@ -1,8 +1,20 @@
-# ===================================
-#  List Column Definitions
-# ===================================
-
 columns:
     id:
         label: ID
+        type: number
         searchable: true
+    product_code:
+        label: 'Product Code'
+        type: text
+    name:
+        label: Name
+        type: text
+    wholesale_price:
+        label: 'Wholesale price'
+        type: number
+    retail_price:
+        label: 'Retail price'
+        type: number
+    quantity:
+        label: Quantity
+        type: number

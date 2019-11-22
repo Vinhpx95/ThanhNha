@@ -53,6 +53,8 @@ class Plugin extends PluginBase
 
         return [
             'Thanhnha\Shop\Components\InforFooter' => 'inforFooter',
+            'Thanhnha\Shop\Components\Phonering' => 'phoneRing',
+            'Thanhnha\Shop\Components\ProductShortInfo' => 'productShortInfor',
         ];
     }
 

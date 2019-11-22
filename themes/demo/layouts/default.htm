@@ -1,4 +1,6 @@
 description = "Default layout"
+
+[phoneRing]
 ==
 <!DOCTYPE html>
 <html>
@@ -62,9 +64,9 @@ description = "Default layout"
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                <li><a href="#portfolio" class="page-scroll">Sản phẩm</a></li>
                 <li><a href="#about" class="page-scroll">Giới thiệu</a></li>
-                <li><a href="#restaurant-menu" class="page-scroll">Sản phẩm</a></li>
-                <li><a href="#portfolio" class="page-scroll">Bộ sưu tập</a></li>
+                <!-- <li><a href="#restaurant-menu" class="page-scroll">Sản phẩm</a></li> -->
                 <!-- <li><a href="#team" class="page-scroll">Chefs</a></li> -->
                 <li><a href="#call-reservation" class="page-scroll">Liên hệ</a></li>
                 </ul>
@@ -84,7 +86,7 @@ description = "Default layout"
         <div id="footer">
             {% partial 'site/footer' %}
         </div>
-
+{% component 'phoneRing' %}
         <!-- Scripts -->
         <script type="text/javascript" src="{{ 'assets/javascript/jquery.1.11.1.js'|theme }}"></script> 
         <script type="text/javascript" src="{{ 'assets/javascript/bootstrap.js'|theme }}"></script> 

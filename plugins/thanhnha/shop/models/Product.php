@@ -7,11 +7,12 @@ use Model;
  */
 class Product extends Model
 {
-    //use \October\Rain\Database\Traits\Validation;   
+    use \October\Rain\Database\Traits\Validation;   
     /**
      * @var string The database table used by the model.
      */
     public $table = 'products';
+    public $timestamps = false;
 
     /**
      * @var array Guarded fields
@@ -35,4 +36,13 @@ class Product extends Model
     public $morphMany = [];
     public $attachOne = [];
     public $attachMany = [];
+
+    protected $rules = [
+        'product_code' => 'required',
+        'name' => 'required',
+        'invest_price' => 'required|numeric',
+        'wholesale_price' => 'required|numeric',
+        'retail_price' => 'required|numeric',
+        'quantity' => 'required|numeric',
+    ];
 }

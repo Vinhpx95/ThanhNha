@@ -1,29 +1,13 @@
 title = "Demonstration"
 url = "/"
 layout = "default"
+[productShortInfor]
 ==
 <!-- About Section -->
 
-<div id="about">
-    <div class="container">
-        <div class="row">
-        <div class="col-xs-12 col-md-6" style="text-align: center;">
-            <div class="about-img"><img src="{{ 'assets/images/logo.png'|theme }}" class="img-responsive" alt=""></div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-            <div class="about-text">
-            <h2>Thanh Nhã</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-            <h3>Awarded Chefs</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-    <!-- Restaurant Menu Section -->
-    <div id="restaurant-menu">
+
+<!-- Restaurant Menu Section -->
+<!-- <div id="restaurant-menu">
     <div class="section-title text-center center">
         <div class="overlay">
         <h2>Sản phẩm</h2>
@@ -34,148 +18,265 @@ layout = "default"
     <div class="container">
         Thông tin về Điều Bình Phước
     </div>
-    </div>
-    <!-- Portfolio Section -->
-    <div id="portfolio">
+    </div> -->
+<!-- Portfolio Section -->
+<div id="portfolio">
     <div class="section-title text-center center">
         <div class="overlay">
-        <h2>Bộ sưu tập</h2>
-        <hr>
-        <p class="font-arial">Hình ảnh về sản phẩm Điều Bình Phước</p>
+            <h2>Sản phẩm</h2>
+            <hr>
+            {% component 'productShortInfor' %}
         </div>
     </div>
     <div class="container">
         <div class="row">
-        <div class="categories">
-            <ul class="cat">
-            <li>
-                <ol class="type">
-                <li><a href="#" data-filter="*" class="active">Tất cả</a></li>
-                <li><a href="#" data-filter=".breakfast">Thành phẩm</a></li>
-                <li><a href="#" data-filter=".lunch">Cơ sở sản xuất</a></li>
-                <li><a href="#" data-filter=".dinner">Vườn canh tác</a></li>
-                </ol>
-            </li>
-            </ul>
-            <div class="clearfix"></div>
-        </div>
+            <div class="categories">
+                <ul class="cat">
+                    <li>
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">Tất cả</a></li>
+                            <li><a href="#" data-filter=".thanhpham">Thành phẩm</a></li>
+                            <li><a href="#" data-filter=".cososanxuat">Cơ sở sản xuất</a></li>
+                            <li><a href="#" data-filter=".vuoncanhtac">Vườn canh tác</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
         </div>
         <div class="row">
-        <div class="portfolio-items">
-            <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/01-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+            <div class="portfolio-items">
+                <div class="col-sm-6 col-md-4 col-lg-4 thanhpham">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a href="{{ 'assets/images/gallery/thanhpham/thanhpham1.jpg'|theme }}"
+                                title="Thành phẩm cuối" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Thành phẩm cuối</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/thanhpham/thanhpham1.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/01-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/02-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat8.jpg'|theme }}"
+                                title="Sấy khô sau khi chẻ vỏ" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Sấy khô sau khi chẻ vỏ</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat8.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/02-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/03-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 vuoncanhtac">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac1.jpg'|theme }}"
+                                title="Vườn canh tác" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Vườn canh tác</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac1.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/03-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/04-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat7.jpg'|theme }}"
+                                title="Sàng bụi sau khi chẻ" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Sàng bụi sau khi chẻ</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat7.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/04-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/05-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 thanhpham">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a href="{{ 'assets/images/gallery/thanhpham/thanhpham2.jpg'|theme }}"
+                                title="Thành phẩm đóng sỉ" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Thành phẩm đóng sỉ</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/thanhpham/thanhpham2.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/05-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/06-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 thanhpham">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a href="{{ 'assets/images/gallery/thanhpham/thanhpham3.jpg'|theme }}"
+                                title="Thành phẩm sau khi ngâm muối" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Thành phẩm sau khi ngâm muối</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/thanhpham/thanhpham3.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/06-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/07-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 vuoncanhtac">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac2.jpg'|theme }}"
+                                title="Vườn canh tác" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Vườn canh tác</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac2.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/07-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/08-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat1.jpg'|theme }}"
+                                title="Chuyển tới lò sấy" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Chuyển tới lò sấy</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat1.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/08-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/09-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat2.jpg'|theme }}"
+                                title="Tách vỏ lụa" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Tách vỏ lụa</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat2.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/09-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/10-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 thanhpham">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a href="{{ 'assets/images/gallery/thanhpham/thanhpham4.jpg'|theme }}"
+                                title="Thành phẩm tươi" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Thành phẩm tươi</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/thanhpham/thanhpham4.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/10-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/11-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat6.jpg'|theme }}"
+                                title="Giàn sấy" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Giàn sấy</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat6.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/11-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-                <div class="hover-bg"> <a href="{{ 'assets/images/portfolio/12-large.jpg'|theme }}" title="Dish Name" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                    <h4>Dish Name</h4>
+                <div class="col-sm-6 col-md-4 col-lg-4 vuoncanhtac">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac3.jpg'|theme }}"
+                                title="Vườn canh tác" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Vườn canh tác</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/vuoncanhtac/vuoncanhtac3.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
                 </div>
-                <img src="{{ 'assets/images/portfolio/12-small.jpg'|theme }}" class="img-responsive" alt="Project Title"> </a> </div>
-            </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat3.jpg'|theme }}"
+                                title="Phân loại sản phẩm" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Phân loại sản phẩm</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat3.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat4.jpg'|theme }}"
+                                title="Khử trùng" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Khử trùng</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat4.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 thanhpham">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a href="{{ 'assets/images/gallery/thanhpham/thanhpham5.jpg'|theme }}"
+                                title="Thành phẩm sau khi rang muối" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Thành phẩm sau khi rang muối</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/thanhpham/thanhpham5.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 cososanxuat">
+                    <div class="portfolio-item">
+                        <div class="hover-bg"> <a
+                                href="{{ 'assets/images/gallery/cososanxuat/cososanxuat5.jpg'|theme }}"
+                                title="Hạt sau khi chẻ" data-lightbox-gallery="gallery1">
+                                <div class="hover-text">
+                                    <h4>Hạt sau khi chẻ</h4>
+                                </div>
+                                <img src="{{ 'assets/images/gallery/cososanxuat/cososanxuat5.jpg'|theme }}"
+                                    class="img-responsive" alt="Project Title">
+                            </a> </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
+<div id="about" style="box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6" style="text-align: center;">
+                <div class="about-img"><img src="{{ 'assets/images/logo.png'|theme }}" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="about-text">
+                    <h2>Thanh Nhã</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
+                        Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
+                        commodo nibh.</p>
+                    <h3>Awarded Chefs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
+                        Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
-    <!-- Team Section -->
-    <!-- <div id="team" class="text-center">
+</div>
+<!-- Team Section -->
+<!-- <div id="team" class="text-center">
     <div class="overlay">
         <div class="container">
         <div class="col-md-10 col-md-offset-1 section-title">
@@ -215,14 +316,14 @@ layout = "default"
         </div>
     </div>
     </div> -->
-    <!-- Call Reservation Section -->
-    <div id="call-reservation" class="text-center">
+<!-- Call Reservation Section -->
+<div id="call-reservation" class="text-center">
     <div class="container">
-        <h2>Nếu bạn muốn đặt hàng Hãy liên hệ <strong>0374-914-138</strong></h2>
+        <h2>Nếu bạn muốn đặt hàng Hãy liên hệ <strong> <a style="color: white;" href="tel:{{ infor.phone1 }}">{{ infor.phone1 }}</a></strong></h2>
     </div>
-    </div>
-    <!-- Contact Section -->
-    <!-- <div id="contact" class="text-center">
+</div>
+<!-- Contact Section -->
+<!-- <div id="contact" class="text-center">
     <div class="container">
         <div class="section-title text-center">
         <h2>Liên hệ</h2>
